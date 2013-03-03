@@ -3,7 +3,7 @@
   <head>
     <title>Cartograms with d3 &amp; TopoJSON</title>
     <meta charset="utf-8">
-    <script src="assets/d3/js/d3.v2.min.js"></script>
+    <script src="assets/d3/js/d3.v3.min.js"></script>
     <script src="assets/topojson/js/topojson.js"></script>
     <script src="assets/d3-cartogram/js/cartogram.js"></script>
     <script src="assets/d3-cartogram/js/colorbrewer.js"></script>

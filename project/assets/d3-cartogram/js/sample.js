@@ -35,9 +35,7 @@ fieldsById = d3.nest()
     .map(fields),
 field = fields[0],
 year = years[0],
-colors = colorbrewer.RdYlBu[3]
-    .reverse()
-    .map(function(rgb) { return d3.hsl(rgb); });
+colors = colorbrewer.Greens[3].map(function(rgb) { return d3.hsl(rgb); });
 
 var body = d3.select("body"),
 stat = d3.select("#status");
